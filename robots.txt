@@ -1,0 +1,15 @@
+User-agent: *
+Allow: blog/
+Allow: blog/archives/
+Allow: blog/categories/
+Allow: blog/tags/ 
+Allow: blog/about/
+Disallow: blog/vendors/
+Disallow: blog/js/
+Disallow: blog/css/
+Disallow: blog/fonts/
+Disallow: blog/vendors/
+Disallow: blog/fancybox/
+
+Sitemap: http://cyysilver.github.io/blog/sitemap.xml
+Sitemap: http://cyysilver.github.io/blog/baidusitemap.xml
