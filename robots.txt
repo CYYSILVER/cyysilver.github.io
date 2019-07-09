@@ -4,6 +4,7 @@ Allow: blog/archives/
 Allow: blog/categories/
 Allow: blog/tags/ 
 Allow: blog/about/
+Allow: blog/articles/
 Disallow: blog/vendors/
 Disallow: blog/js/
 Disallow: blog/css/
