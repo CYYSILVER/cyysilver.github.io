@@ -15,7 +15,7 @@
 }
 
 * body #headerArea {
-  height: 53px;
+  height: 10%;
 }
 
 * body #headerArea .theme-light {
@@ -24,6 +24,7 @@
 }
 
 * body #headerArea .theme-light .c-gcontainer {
+  width: 100%;
   height: 53px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,7 +32,7 @@
 }
 
 * body #headerArea .theme-light .c-gcontainer #uhfLogo {
-  width: 137px;
+  width: 10%;
   padding: 16px 6px 16px 10px;
   position: relative;
   top: -2px;
@@ -43,11 +44,11 @@
 }
 
 * body #headerArea .theme-light .c-gcontainer .c-show-pipe {
-  width: 110px;
+  width: 5%;
 }
 
 * body #headerArea .theme-light .c-gcontainer .c-show-pipe #uhfCatLogo {
-  width: 91px;
+  width: 20%;
   color: black;
   text-decoration: none;
   display: inline-block;
@@ -62,7 +63,7 @@
 }
 
 * body #headerArea .theme-light .c-gcontainer #uhf-g-nav {
-  width: 696px;
+  width: 80%;
 }
 
 * body #headerArea .theme-light .c-gcontainer #uhf-g-nav .js-paddle-items {
@@ -92,7 +93,7 @@
 }
 
 * body #headerArea .theme-light .c-gcontainer .c-uhfh-actions {
-  width: 271px;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,12 +102,12 @@
 }
 
 * body #headerArea .theme-light .c-gcontainer .c-uhfh-actions .menu {
-  width: 143px;
+  width: 50%;
   height: 53px;
 }
 
 * body #headerArea .theme-light .c-gcontainer .c-uhfh-actions #meControl {
-  width: 120px;
+  width: 59%;
 }
 
 * body #headerArea .theme-light .c-gcontainer .c-uhfh-actions #meControl a {
@@ -114,8 +115,8 @@
 }
 
 * body #mainContent .big-img {
-  width: 1349px;
-  height: 504px;
+  width: 100%;
+  height: 20%;
   position: relative;
 }
 
@@ -179,8 +180,8 @@
 }
 
 * body #mainContent #container {
-  width: 1349px;
-  height: 190px;
+  width: 100%;
+  height: 15%;
 }
 
 * body #mainContent #container #core {
@@ -232,8 +233,8 @@
 }
 
 * body #mainContent .need-know {
-  height: 277px;
-  width: 1349px;
+  height: 30%;
+  width: 100%;
 }
 
 * body #mainContent .need-know .img-text {
@@ -246,7 +247,7 @@
 }
 
 * body #mainContent .need-know .img-text .img_style {
-  height: 277px;
+  height: 100%;
   width: 50%;
   text-align: center;
 }
@@ -284,8 +285,8 @@
 }
 
 * body #mainContent .carousel {
-  width: 1349px;
-  height: 773px;
+  width: 100%;
+  height: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;

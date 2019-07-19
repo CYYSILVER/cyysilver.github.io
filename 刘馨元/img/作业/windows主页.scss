@@ -13,19 +13,20 @@
 
         // 导航栏
         #headerArea {
-            height: 53px;
+            height: 10%;
 
             .theme-light {
                 padding: 0 5%; //内容居中，左右间距5%
                 height: 53px;
 
                 .c-gcontainer {
+                    width: 100%;
                     height: 53px;
                     display: flex;
 
                     // Microsoft
                     #uhfLogo {
-                        width: 137px;
+                        width: 10%;
                         padding: 16px 6px 16px 10px;
                         position: relative;
                         top: -2px;
@@ -38,10 +39,10 @@
 
                     // Windows
                     .c-show-pipe {
-                        width: 110px;
+                        width: 5%;
 
                         #uhfCatLogo {
-                            width: 91px;
+                            width: 20%;
                             color: black;
                             text-decoration: none;
                             display: inline-block;
@@ -58,7 +59,7 @@
 
                     // Windows 10 ~ 购买
                     #uhf-g-nav {
-                        width: 696px;
+                        width: 80%;
 
                         .js-paddle-items {
                             white-space: nowrap;
@@ -91,18 +92,18 @@
 
                     // 所有Microsoft ~ 搜索购物
                     .c-uhfh-actions {
-                        width: 271px;
+                        width: 30%;
                         display: flex;
                         font-size: 13px;
                         padding-top: 18px;
 
                         .menu {
-                            width: 143px;
+                            width: 50%;
                             height: 53px;
                         }
 
                         #meControl {
-                            width: 120px;
+                            width: 59%;
 
                             a {
                                 margin-left: 5px;
@@ -119,8 +120,8 @@
 
             // 第一张大图及文字 
             .big-img {
-                width: 1349px;
-                height: 504px;
+                width: 100%;
+                height: 20%;
                 position: relative;
 
                 .c-image {
@@ -181,8 +182,8 @@
 
             // 4个小图
             #container {
-                width: 1349px;
-                height: 190px;
+                width: 100%;
+                height: 15%;
 
                 #core {
                     padding: 0 12px;
@@ -229,8 +230,8 @@
 
             // Windows 7 的有关须知 
             .need-know {
-                height: 277px;
-                width: 1349px;
+                height: 30%;
+                width: 100%;
 
                 .img-text {
                     height: 100%;
@@ -239,7 +240,7 @@
                     border: 1px solid black;
 
                     .img_style {
-                        height: 277px;
+                        height: 100%;
                         width: 50%;
                         text-align: center;
 
@@ -274,8 +275,8 @@
             // 轮播
             .carousel {
                 // overflow: hidden;
-                width: 1349px;
-                height: 773px;
+                width: 100%;
+                height: 100%;
                 position: relative;
                 display: flex;
                 padding: 40px 0;
