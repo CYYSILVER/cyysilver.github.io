@@ -6,23 +6,136 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
       body {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
+        background: #031321;
+        flex-direction: column;
+        color: #2196f3;
       }
 
-      * {
-        padding: 0;
-        margin: 0;
+      .button {
+        padding: 20px 50px;
+        color: #2196f3;
+        font-size: 2em;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 0 5px #2195f35d;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .button:hover {
+        background: #2196f3;
+        color: #255784;
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+        transition: 0.1s 0.5s;
+      }
+
+      .button span {
+        position: absolute;
+        display: block;
+      }
+
+      .button span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        height: 2px;
+        background: linear-gradient(to left, #2196f3, rgba(39, 212, 255, 0));
+        width: 100%;
+        /* transition-delay: 0s; */
+      }
+
+      .button:hover span:nth-child(1) {
+        left: 100%;
+        transition: 0.5s;
+      }
+
+      .button span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        height: 2px;
+        background: linear-gradient(to right, #2196f3, rgba(39, 212, 255, 0));
+        width: 100%;
+      }
+
+      .button:hover span:nth-child(3) {
+        right: 100%;
+        transition: 0.5s;
+        transition-delay: 0.25s;
+      }
+
+      .button span:nth-child(2) {
+        right: 0;
+        top: -100%;
+        background: linear-gradient(to top, #2196f3, rgba(39, 212, 255, 0));
+        height: 100%;
+        width: 2px;
+      }
+
+      .button:hover span:nth-child(2) {
+        top: 100%;
+        transition: 0.5s;
+        transition-delay: 0.125s;
+      }
+
+      .button span:nth-child(4) {
+        left: 0;
+        bottom: -100%;
+        background: linear-gradient(to bottom, #2196f3, rgba(39, 212, 255, 0));
+        height: 100%;
+        width: 2px;
+      }
+
+      .button:hover span:nth-child(4) {
+        bottom: 100%;
+        transition: 0.5s;
+        transition-delay: 0.375s;
       }
     </style>
   </head>
   <body>
-    <div>
-      <h1>主页建设中</h1>
-      <a href="/blog">个人博客</a>
-    </div>
+    <h1 style="margin-bottom: 20px; font-size: 60px; font-weight: 100;">本页面更新中</h1>
+    <a class="button" style="width: 150px;" href="/blog">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <p>个人博客</p>
+    </a>
+    <br />
+    <a class="button" style="width: 150px;" href="https://github.com/cyysilver">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <p>github</p>
+    </a>
+    <br/>
+    <a class="button" style="width: 150px;" href="https://github.com/CYYSILVER/ajax-promise">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <p>最新项目</p>
+      <i style="font-size: 10px; white-space: nowrap;">轻量化的promise封装的ajax</i>
+    </a>
   </body>
 </html>
+
+<script>
+  const a = document.querySelector('a')
+  a.addEventListener('click', e => {
+    e.preventDefault()
+    console.log(e)
+    console.log(getSelection())
+  })
+</script>
